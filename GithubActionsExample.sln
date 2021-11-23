@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubActionsExample.Client", "GithubActionsExample.Client\GithubActionsExample.Client.csproj", "{9C0E1848-3CAF-4403-B65E-372F6CEA908D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubActionsExample.Tests", "GithubActionsExample.Tests\GithubActionsExample.Tests.csproj", "{1F6B963D-CE49-4C54-93FB-B04726D52243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{00CCB9F3-8A97-45B9-87BC-C71E46208940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{B8CE84AF-93C7-491D-A1E9-384D6909E67D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{0CCBFD4B-F1CE-48DF-8528-A3ADA0637C6C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\bee-http-workflow.yml = .github\workflows\bee-http-workflow.yml
+		.github\workflows\bee-workflow.yml = .github\workflows\bee-workflow.yml
+		.github\workflows\delete-all-artefacts.yml = .github\workflows\delete-all-artefacts.yml
+		.github\workflows\deploy-blazor-with-tests.yml = .github\workflows\deploy-blazor-with-tests.yml
+		.github\workflows\lottery.yml = .github\workflows\lottery.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0E1848-3CAF-4403-B65E-372F6CEA908D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0E1848-3CAF-4403-B65E-372F6CEA908D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0E1848-3CAF-4403-B65E-372F6CEA908D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0E1848-3CAF-4403-B65E-372F6CEA908D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6B963D-CE49-4C54-93FB-B04726D52243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6B963D-CE49-4C54-93FB-B04726D52243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6B963D-CE49-4C54-93FB-B04726D52243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6B963D-CE49-4C54-93FB-B04726D52243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C0E1848-3CAF-4403-B65E-372F6CEA908D} = {00CCB9F3-8A97-45B9-87BC-C71E46208940}
+		{1F6B963D-CE49-4C54-93FB-B04726D52243} = {00CCB9F3-8A97-45B9-87BC-C71E46208940}
+		{0CCBFD4B-F1CE-48DF-8528-A3ADA0637C6C} = {B8CE84AF-93C7-491D-A1E9-384D6909E67D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B10AA16D-1275-4625-B629-CBCBB6D06366}
+	EndGlobalSection
+EndGlobal
