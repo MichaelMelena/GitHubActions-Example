@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubActionsExample.Client", "GithubActionsExample.Client\GithubActionsExample.Client.csproj", "{9C0E1848-3CAF-4403-B65E-372F6CEA908D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GithubActionsExample.Client", "GithubActionsExample.Client\GithubActionsExample.Client.csproj", "{9C0E1848-3CAF-4403-B65E-372F6CEA908D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubActionsExample.Tests", "GithubActionsExample.Tests\GithubActionsExample.Tests.csproj", "{1F6B963D-CE49-4C54-93FB-B04726D52243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GithubActionsExample.Tests", "GithubActionsExample.Tests\GithubActionsExample.Tests.csproj", "{1F6B963D-CE49-4C54-93FB-B04726D52243}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{00CCB9F3-8A97-45B9-87BC-C71E46208940}"
 EndProject
@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\bee-workflow.yml = .github\workflows\bee-workflow.yml
 		.github\workflows\delete-all-artefacts.yml = .github\workflows\delete-all-artefacts.yml
 		.github\workflows\deploy-blazor-with-tests.yml = .github\workflows\deploy-blazor-with-tests.yml
+		.github\workflows\hello-world-workflow.yml = .github\workflows\hello-world-workflow.yml
 		.github\workflows\lottery.yml = .github\workflows\lottery.yml
 	EndProjectSection
 EndProject
