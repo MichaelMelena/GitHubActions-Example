@@ -5,8 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: head data/important_document.txt -n 6
+    
+    - run: head ./examples/important_document.txt -n 6
+    
     - uses: actions/upload-artifact@v2
       with:
         name: Bee Artifact
-        path: data/important_document.txt
+        path: ./examples/important_document.txt
