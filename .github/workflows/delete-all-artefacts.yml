@@ -1,11 +1,14 @@
 name: Delete all artifacts
-on: [workflow_dispatch]
+on:
+  schedule:
+  - cron: "45 5 * * 1,5"
+  workflow_dispatch:
 jobs:
   delete-job:
     runs-on: ubuntu-latest
     steps:
     - id: result 
-    - uses: MichaelMelena/list-artifacts@v1
+      uses: MichaelMelena/list-artifacts@v1
     - uses: MichaelMelena/remove-artifacts@v1
       with:
         artifacts: ${{ steps.result.outputs.artifacts }}
