@@ -8,7 +8,7 @@ request.get(
       return console.log(error);
     } else {
       console.log(response);
-      fs.writeFile("data/result.txt", body, (fileError) => {
+      fs.writeFile("./examples/result.txt", body, (fileError) => {
         console.log(fileError);
       });
     }
