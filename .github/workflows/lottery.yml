@@ -6,8 +6,8 @@ jobs:
     name: Pulling a winner
     steps:
     - uses: actions/checkout@v2
-    - run: chmod +x ./data/winner.sh
-    - run: ./data/winner.sh
+    - run: chmod +x ./examples/winner.sh
+    - run: ./examples/winner.sh
     - uses: actions/upload-artifact@v2
       with:
         name: Winner
